@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# SPDX-FileCopyrightText: 2020, Torsten Grote 
+# SPDX-License-Identifier: Apache-2.0
 
 set -ex
 
