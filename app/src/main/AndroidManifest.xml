@@ -61,6 +61,15 @@
             android:name=".settings.SettingsActivity"
             android:exported="true" />
 
+        <activity-alias android:name=".settings.SettingsLink"
+                android:targetActivity=".settings.SettingsActivity"
+                android:label="@string/backup">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
         <activity
             android:name=".ui.storage.StorageActivity"
             android:theme="@style/AppTheme.NoActionBar" />
